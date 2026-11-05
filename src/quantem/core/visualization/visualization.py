@@ -577,6 +577,8 @@ def show_2d(
     >>> labels = [["BF", "ADF", "ABF"], ["HAADF", "DPC", "SSB"]]
     >>> fig, axs = show_2d(rows, title=labels, cmap="gray", scalebar={"sampling": 0.5, "units": "Å"})
     """
+
+    print('hello IJUN!!!!!!!!!!!!!!.  ')
     arrays = to_cpu(arrays)
     grid = _normalize_show_input_to_grid(arrays)
     nrows = len(grid)
